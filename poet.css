@@ -5,7 +5,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
-  line-height: 1.428; }
+  line-height: 1.428;
+  color: #333333; }
 
 html {
   -ms-text-size-adjust: 100%;
@@ -26,7 +27,29 @@ h5, .h5,
 h6, .h6 {
   display: block;
   margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-family: inherit;
+  line-height: 1.1;
+  color: inherit; }
+  h1 small,
+  h1 .small, .h1 small,
+  .h1 .small,
+  h2 small,
+  h2 .small, .h2 small,
+  .h2 .small,
+  h3 small,
+  h3 .small, .h3 small,
+  .h3 .small,
+  h4 small,
+  h4 .small, .h4 small,
+  .h4 .small,
+  h5 small,
+  h5 .small, .h5 small,
+  .h5 .small,
+  h6 small,
+  h6 .small, .h6 small,
+  .h6 .small {
+    color: #888888; }
 
 h1, .h1 {
   font-size: 2.5714rem; }
@@ -51,6 +74,15 @@ h6, .h6 {
 .mighty-3,
 .mighty-4 {
   display: block; }
+  .mighty-1 small,
+  .mighty-1 .small,
+  .mighty-2 small,
+  .mighty-2 .small,
+  .mighty-3 small,
+  .mighty-3 .small,
+  .mighty-4 small,
+  .mighty-4 .small {
+    color: #888888; }
 
 .mighty-1 {
   font-size: 6rem; }
@@ -77,7 +109,7 @@ mark,
 .text-highlight {
   padding: .2em;
   color: #000;
-  background: #ff0; }
+  background: #FFFF00; }
 
 small,
 .text-small {
@@ -91,6 +123,15 @@ small,
 
 .text-capitalize {
   text-transform: capitalize; }
+
+.text-success {
+  color: #22A64E; }
+
+.text-warning {
+  color: #976E28; }
+
+.text-danger {
+  color: #A62222; }
 
 /* Centered a Text Element Horizontally*/
 .text-center-element {
@@ -122,7 +163,8 @@ small,
   font-weight: 300; }
 
 /* Regular Text */
-.text-regular {
+.text-regular, html,
+body {
   font-weight: 500; }
 
 /* Heavy Text */
@@ -133,29 +175,46 @@ small,
 b,
 strong,
 .text-bold,
-.text-chapter:first-letter {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+.text-chapter:first-letter,
+.text-chapter-cursive:first-letter {
   font-weight: bold; }
-
-.font-monospace {
-  font-family: "Courier New", Courier, monospace; }
-
-.font-serif {
-  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; }
 
 .font-san-serif, html,
 body,
 .font-sanserif {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
-.text-chapter:first-letter {
+.font-serif {
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; }
+
+.font-monospace {
+  font-family: "Courier New", Courier, monospace; }
+
+.font-cursive, .text-chapter-cursive:first-letter {
+  font-family: cursive; }
+
+.text-chapter:first-letter, .text-chapter-cursive:first-letter {
   font-size: 6em;
   text-transform: uppercase;
   display: block;
   float: left;
-  margin: 0 15px 0 0;
+  margin: 0 0.25em 0 0;
   line-height: .9; }
 
-.text-chapter.text-indent {
+.text-chapter.text-indent, .text-indent.text-chapter-cursive:first-letter,
+.text-chapter-cursive.text-indent {
   text-indent: 0; }
 
 .text-indent {
@@ -163,67 +222,67 @@ body,
 
 @media only screen and (min-width: 360px) {
   .text-fluid {
-    font-size: 1.224em; } }
+    font-size: 1.224rem; } }
 @media only screen and (min-width: 390px) {
   .text-fluid {
-    font-size: 1.248em; } }
+    font-size: 1.248rem; } }
 @media only screen and (min-width: 420px) {
   .text-fluid {
-    font-size: 1.272em; } }
+    font-size: 1.272rem; } }
 @media only screen and (min-width: 450px) {
   .text-fluid {
-    font-size: 1.296em; } }
+    font-size: 1.296rem; } }
 @media only screen and (min-width: 480px) {
   .text-fluid {
-    font-size: 1.32em; } }
+    font-size: 1.32rem; } }
 @media only screen and (min-width: 510px) {
   .text-fluid {
-    font-size: 1.344em; } }
+    font-size: 1.344rem; } }
 @media only screen and (min-width: 540px) {
   .text-fluid {
-    font-size: 1.368em; } }
+    font-size: 1.368rem; } }
 @media only screen and (min-width: 570px) {
   .text-fluid {
-    font-size: 1.392em; } }
+    font-size: 1.392rem; } }
 @media only screen and (min-width: 600px) {
   .text-fluid {
-    font-size: 1.416em; } }
+    font-size: 1.416rem; } }
 @media only screen and (min-width: 630px) {
   .text-fluid {
-    font-size: 1.44em; } }
+    font-size: 1.44rem; } }
 @media only screen and (min-width: 660px) {
   .text-fluid {
-    font-size: 1.464em; } }
+    font-size: 1.464rem; } }
 @media only screen and (min-width: 690px) {
   .text-fluid {
-    font-size: 1.488em; } }
+    font-size: 1.488rem; } }
 @media only screen and (min-width: 720px) {
   .text-fluid {
-    font-size: 1.512em; } }
+    font-size: 1.512rem; } }
 @media only screen and (min-width: 750px) {
   .text-fluid {
-    font-size: 1.536em; } }
+    font-size: 1.536rem; } }
 @media only screen and (min-width: 780px) {
   .text-fluid {
-    font-size: 1.56em; } }
+    font-size: 1.56rem; } }
 @media only screen and (min-width: 810px) {
   .text-fluid {
-    font-size: 1.584em; } }
+    font-size: 1.584rem; } }
 @media only screen and (min-width: 840px) {
   .text-fluid {
-    font-size: 1.608em; } }
+    font-size: 1.608rem; } }
 @media only screen and (min-width: 870px) {
   .text-fluid {
-    font-size: 1.632em; } }
+    font-size: 1.632rem; } }
 @media only screen and (min-width: 900px) {
   .text-fluid {
-    font-size: 1.656em; } }
+    font-size: 1.656rem; } }
 @media only screen and (min-width: 930px) {
   .text-fluid {
-    font-size: 1.68em; } }
+    font-size: 1.68rem; } }
 @media only screen and (min-width: 960px) {
   .text-fluid {
-    font-size: 1.704em; } }
+    font-size: 1.704rem; } }
 .text-link {
   color: #0040FF;
   text-decoration: none;
