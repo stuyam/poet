@@ -1,0 +1,17 @@
+body{
+  // improved readability for browsers that can handle it
+  text-rendering: optimizeLegibility;
+
+  // why Antialiasing is Awseome http://www.html5rocks.com/en/tutorials/internals/antialiasing-101/
+  -webkit-font-smoothing:  antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  // set default page font size to 14px
+  font-size: 14px;
+
+  // line height
+  line-height: 1.428;
+
+  // set font to san-serif Helvetica by default
+  @extend .font-san-serif
+}

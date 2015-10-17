@@ -1,0 +1,31 @@
+/* Bold Text In 'wieght' section */
+
+/* Italic Text */
+.text-italic{
+  font-style: italic;
+}
+
+/* Strikethrough Text */
+.text-strike{
+  text-decoration: line-through;
+}
+
+/* Underlined Text */
+.text-underline{
+  text-decoration: underline;
+}
+
+/* Uppercase Text */
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+/* Lowercase Text */
+.text-lowercase{
+  text-transform: lowercase;
+}
+
+/* Capitalize Text */
+.text-capitalize{
+  text-transform: capitalize;
+}

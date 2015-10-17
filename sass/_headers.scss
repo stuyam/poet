@@ -1,0 +1,37 @@
+// Normal heading presets
+h1, .h1{
+  font-size: 2.5714rem;
+}
+h2, .h2{
+  font-size: 1.6429rem;
+}
+h3, .h3{
+  font-size: 1.7143rem;
+}
+h4, .h4{
+  font-size: 1.2857rem;
+}
+h5, .h5{
+  font-size: 1rem;
+}
+h6, .h6{
+  font-size: 0.8571rem;
+}
+
+// Extra large text
+.mighty-1{
+  font-size: 6rem;
+  @extend .text-light;
+}
+.mighty-2{
+  font-size: 5rem;
+  @extend .text-light;
+}
+.mighty-3{
+  font-size: 4rem;
+  @extend .text-light;
+}
+.mighty-4{
+  font-size: 3.5rem;
+  @extend .text-light;
+}
