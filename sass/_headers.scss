@@ -8,6 +8,16 @@ h6, .h6{
   display: block;
   margin-top: 20px;
   margin-bottom: 10px;
+  font-family: inherit;
+  @extend .text-bold;
+  line-height: 1.1;
+  color: inherit;
+
+  // Make small elements grey in these elements
+  small,
+  .small{
+    color: $color-grey;
+  }
 }
 
 h1, .h1{
@@ -36,6 +46,12 @@ h6, .h6{
 .mighty-4{
   display: block;
   @extend .text-light;
+
+  // Make small elements grey in these elements
+  small,
+  .small{
+    color: $color-grey;
+  }
 }
 
 .mighty-1{
