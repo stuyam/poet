@@ -1,6 +1,7 @@
-// Monospaced font
-.font-monospace{
-  font-family: "Courier New", Courier, monospace;
+// San-serifed font
+.font-san-serif,
+.font-sanserif{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 // Serifed font
@@ -8,8 +9,13 @@
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
 }
 
-// San-serifed font
-.font-san-serif,
-.font-sanserif{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+// Monospaced font
+.font-monospace{
+  font-family: "Courier New", Courier, monospace;
 }
+
+// San-serifed font
+.font-cursive{
+  font-family: cursive;
+}
+
