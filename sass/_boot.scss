@@ -14,7 +14,13 @@ body{
   line-height: 1.428;
 
   // set font to san-serif Helvetica by default
-  @extend .font-san-serif
+  @extend .font-san-serif;
+
+  // set font color to black-gray
+  color: $color-black;
+
+  // set base font weight to regular
+  @extend .text-regular;
 }
 
 
