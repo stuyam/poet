@@ -16,10 +16,15 @@
 }
 
 // Highlight Text
-.text-hightlight{
+.text-highlight{
   padding: .2em;
   color: #000;
   background: #ff0;
+}
+
+// Make text 85% smaller
+.text-small{
+  font-size: .85em;
 }
 
 // Uppercase Text

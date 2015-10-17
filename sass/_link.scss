@@ -1,0 +1,9 @@
+// style text to link
+.text-link{
+  color: #0040FF;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover{
+    @extend .text-underline;
+  }
+}
