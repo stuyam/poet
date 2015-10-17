@@ -1,31 +1,38 @@
-/* Bold Text In 'wieght' section */
+// Bold Text is in 'wieght' section
 
-/* Italic Text */
+// Italic Text
 .text-italic{
   font-style: italic;
 }
 
-/* Strikethrough Text */
+// Strikethrough Text
 .text-strike{
   text-decoration: line-through;
 }
 
-/* Underlined Text */
+// Underlined Text
 .text-underline{
   text-decoration: underline;
 }
 
-/* Uppercase Text */
+// Highlight Text
+.text-hightlight{
+  padding: .2em;
+  color: #000;
+  background: #ff0;
+}
+
+// Uppercase Text
 .text-uppercase{
   text-transform: uppercase;
 }
 
-/* Lowercase Text */
+// Lowercase Text
 .text-lowercase{
   text-transform: lowercase;
 }
 
-/* Capitalize Text */
+// Capitalize Text
 .text-capitalize{
   text-transform: capitalize;
 }
