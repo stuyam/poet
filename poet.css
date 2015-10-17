@@ -1,0 +1,219 @@
+/*! Poet v0.0.1 | MIT license | Maintained by Stuart Yamartino */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.428; }
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+h1, .h1 {
+  font-size: 2.5714rem; }
+
+h2, .h2 {
+  font-size: 1.6429rem; }
+
+h3, .h3 {
+  font-size: 1.7143rem; }
+
+h4, .h4 {
+  font-size: 1.2857rem; }
+
+h5, .h5 {
+  font-size: 1rem; }
+
+h6, .h6 {
+  font-size: 0.8571rem; }
+
+.mighty-1,
+.mighty-2,
+.mighty-3,
+.mighty-4 {
+  display: block; }
+
+.mighty-1 {
+  font-size: 6rem; }
+
+.mighty-2 {
+  font-size: 5rem; }
+
+.mighty-3 {
+  font-size: 4rem; }
+
+.mighty-4 {
+  font-size: 3.5rem; }
+
+.text-italic {
+  font-style: italic; }
+
+.text-strike {
+  text-decoration: line-through; }
+
+.text-underline, .text-link:hover {
+  text-decoration: underline; }
+
+.text-highlight {
+  padding: .2em;
+  color: #000;
+  background: #ff0; }
+
+.text-small {
+  font-size: .85em; }
+
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-lowercase {
+  text-transform: lowercase; }
+
+.text-capitalize {
+  text-transform: capitalize; }
+
+/* Centered a Text Element Horizontally*/
+.text-center-element {
+  width: 100%;
+  text-align: center;
+  display: block; }
+
+/* Align Text Left*/
+.text-left {
+  text-align: left; }
+
+/* Align Text Center*/
+.text-left {
+  text-align: center; }
+
+/* Align Text Right*/
+.text-left {
+  text-align: right; }
+
+/* Ultra Light Text */
+.text-ultra-light {
+  font-weight: 100; }
+
+/* Light Text */
+.text-light, .mighty-1,
+.mighty-2,
+.mighty-3,
+.mighty-4 {
+  font-weight: 300; }
+
+/* Regular Text */
+.text-regular {
+  font-weight: 500; }
+
+/* Heavy Text */
+.text-heavy {
+  font-weight: 700; }
+
+/* Bold Text */
+.text-bold, .text-chapter:first-letter {
+  font-weight: bold; }
+
+.font-monospace {
+  font-family: "Courier New", Courier, monospace; }
+
+.font-serif {
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; }
+
+.font-san-serif, body,
+.font-sanserif {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+.text-chapter:first-letter {
+  font-size: 6rem;
+  text-transform: uppercase;
+  display: block;
+  float: left;
+  margin: 0 15px 0 0;
+  line-height: .9; }
+
+.text-chapter.text-indent {
+  text-indent: 0; }
+
+.text-indent {
+  text-indent: 40px; }
+
+@media only screen and (min-width: 360px) {
+  .text-fluid {
+    font-size: 1.224em; } }
+@media only screen and (min-width: 390px) {
+  .text-fluid {
+    font-size: 1.248em; } }
+@media only screen and (min-width: 420px) {
+  .text-fluid {
+    font-size: 1.272em; } }
+@media only screen and (min-width: 450px) {
+  .text-fluid {
+    font-size: 1.296em; } }
+@media only screen and (min-width: 480px) {
+  .text-fluid {
+    font-size: 1.32em; } }
+@media only screen and (min-width: 510px) {
+  .text-fluid {
+    font-size: 1.344em; } }
+@media only screen and (min-width: 540px) {
+  .text-fluid {
+    font-size: 1.368em; } }
+@media only screen and (min-width: 570px) {
+  .text-fluid {
+    font-size: 1.392em; } }
+@media only screen and (min-width: 600px) {
+  .text-fluid {
+    font-size: 1.416em; } }
+@media only screen and (min-width: 630px) {
+  .text-fluid {
+    font-size: 1.44em; } }
+@media only screen and (min-width: 660px) {
+  .text-fluid {
+    font-size: 1.464em; } }
+@media only screen and (min-width: 690px) {
+  .text-fluid {
+    font-size: 1.488em; } }
+@media only screen and (min-width: 720px) {
+  .text-fluid {
+    font-size: 1.512em; } }
+@media only screen and (min-width: 750px) {
+  .text-fluid {
+    font-size: 1.536em; } }
+@media only screen and (min-width: 780px) {
+  .text-fluid {
+    font-size: 1.56em; } }
+@media only screen and (min-width: 810px) {
+  .text-fluid {
+    font-size: 1.584em; } }
+@media only screen and (min-width: 840px) {
+  .text-fluid {
+    font-size: 1.608em; } }
+@media only screen and (min-width: 870px) {
+  .text-fluid {
+    font-size: 1.632em; } }
+@media only screen and (min-width: 900px) {
+  .text-fluid {
+    font-size: 1.656em; } }
+@media only screen and (min-width: 930px) {
+  .text-fluid {
+    font-size: 1.68em; } }
+@media only screen and (min-width: 960px) {
+  .text-fluid {
+    font-size: 1.704em; } }
+.text-link {
+  color: #0040FF;
+  text-decoration: none;
+  cursor: pointer; }
+
+.text-unselectable {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none; }
