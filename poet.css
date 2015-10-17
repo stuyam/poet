@@ -1,10 +1,22 @@
 /*! Poet v0.0.1 | MIT license | Maintained by Stuart Yamartino */
+html,
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 14px;
   line-height: 1.428; }
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+a {
+  background-color: transparent; }
+
+a:active,
+a:hover {
+  outline: 0; }
 
 h1, .h1,
 h2, .h2,
@@ -61,13 +73,15 @@ h6, .h6 {
 .text-underline, .text-link:hover {
   text-decoration: underline; }
 
+mark,
 .text-highlight {
   padding: .2em;
   color: #000;
   background: #ff0; }
 
+small,
 .text-small {
-  font-size: .85em; }
+  font-size: .80em; }
 
 .text-uppercase {
   text-transform: uppercase; }
@@ -116,7 +130,10 @@ h6, .h6 {
   font-weight: 700; }
 
 /* Bold Text */
-.text-bold, .text-chapter:first-letter {
+b,
+strong,
+.text-bold,
+.text-chapter:first-letter {
   font-weight: bold; }
 
 .font-monospace {
@@ -125,7 +142,8 @@ h6, .h6 {
 .font-serif {
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; }
 
-.font-san-serif, body,
+.font-san-serif, html,
+body,
 .font-sanserif {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
