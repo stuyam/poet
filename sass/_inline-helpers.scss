@@ -65,6 +65,7 @@ small,
   text-transform: capitalize;
 }
 
+// Based off of Bootsraps text color classes http://getbootstrap.com/css/#type
 // Success green
 .text-success{
   color: $color-success;
@@ -75,7 +76,38 @@ small,
   color: $color-warning;
 }
 
-// Error color
+// Danger red
 .text-danger{
   color: $color-danger;
+}
+
+// Muted grey
+.text-muted{
+  color: $color-grey;
+}
+
+// Info blue
+.text-info{
+  color: $color-info;
+}
+
+// Super and Sub Script, taken from Normalize.css http://necolas.github.io/normalize.css/
+sub,
+sup,
+.text-superscript,
+.text-subscript,{
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup,
+.text-superscript{
+  top: -0.5em;
+  left: 0.05em;
+}
+sub,
+.text-subscript{
+  bottom: -0.25em;
+  left: 0.05em;
 }

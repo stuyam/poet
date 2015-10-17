@@ -128,10 +128,35 @@ small,
   color: #22A64E; }
 
 .text-warning {
-  color: #976E28; }
+  color: #AF7E2A; }
 
 .text-danger {
   color: #A62222; }
+
+.text-muted {
+  color: #888888; }
+
+.text-info {
+  color: #337ab7; }
+
+sub,
+sup,
+.text-superscript,
+.text-subscript {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup,
+.text-superscript {
+  top: -0.5em;
+  left: 0.05em; }
+
+sub,
+.text-subscript {
+  bottom: -0.25em;
+  left: 0.05em; }
 
 /* Centered a Text Element Horizontally*/
 .text-center-element {
