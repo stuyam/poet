@@ -1,0 +1,14 @@
+// makes the first letter large similar to the begining of chapters in books
+.chapter:first-letter {
+  font-size: 6rem;
+  @extend .text-bold
+  text-transform: uppercase;
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+}
+
+// add indentation to multiple lines of text
+.text-indent{
+  text-indent: 40px;
+}

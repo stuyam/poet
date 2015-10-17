@@ -1,0 +1,7 @@
+// responsive utility for scaling text down to mobile devices
+@for $i from 1 through 21
+  @media only screen and (min-width: #{$i * 30 + 330}px) {
+    .text-fluid {
+      font-size: #{$i * 0.024 + 1.2}em;
+    }
+  }
