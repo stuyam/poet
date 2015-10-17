@@ -148,7 +148,7 @@ body,
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 .text-chapter:first-letter {
-  font-size: 6rem;
+  font-size: 6em;
   text-transform: uppercase;
   display: block;
   float: left;
