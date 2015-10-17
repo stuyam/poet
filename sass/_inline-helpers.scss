@@ -15,13 +15,34 @@
   text-decoration: underline;
 }
 
+// Better underlining for text on a white background
+// .text-underline-magic{
+//   background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0) 30%);
+//   background-repeat: repeat-x;
+//   background-size: 0.1em 0.1em;
+//   background-position: 0 1.15em;
+//   text-shadow: 0 0 #333, .06em 0 0 #fff, 0 0, -.06em 0 0 #fff;
+// }
+
 // Highlight Text
 mark,
 .text-highlight{
   padding: .2em;
   color: #000;
-  background: #ff0;
+  background: $color-highlight;
 }
+
+// Overide system highlighting
+// .text-system-highlight::-moz-selection,
+// .text-system-highlight *::-moz-selection{
+//   color: #000;
+//   background: $color-highlight;
+// }
+// .text-system-highlight::selection,
+// .text-system-highlight *::selection{
+//   color: #000;
+//   background: $color-highlight;
+// }
 
 // Make text 85% smaller
 small,
@@ -42,4 +63,19 @@ small,
 // Capitalize Text
 .text-capitalize{
   text-transform: capitalize;
+}
+
+// Success green
+.text-success{
+  color: $color-success;
+}
+
+// Warning orange
+.text-warning{
+  color: $color-warning;
+}
+
+// Error color
+.text-danger{
+  color: $color-danger;
 }
