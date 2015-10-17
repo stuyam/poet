@@ -158,45 +158,36 @@ sub,
   bottom: -0.25em;
   left: 0.05em; }
 
-/* Centered a Text Element Horizontally*/
 .text-center-element {
   width: 100%;
   text-align: center;
   display: block; }
 
-/* Align Text Left*/
 .text-left {
   text-align: left; }
 
-/* Align Text Center*/
 .text-left {
   text-align: center; }
 
-/* Align Text Right*/
 .text-left {
   text-align: right; }
 
-/* Ultra Light Text */
 .text-ultra-light {
   font-weight: 100; }
 
-/* Light Text */
 .text-light, .mighty-1,
 .mighty-2,
 .mighty-3,
 .mighty-4 {
   font-weight: 300; }
 
-/* Regular Text */
 .text-regular, html,
 body {
   font-weight: 500; }
 
-/* Heavy Text */
 .text-heavy {
   font-weight: 700; }
 
-/* Bold Text */
 b,
 strong,
 .text-bold,
