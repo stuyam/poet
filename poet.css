@@ -382,7 +382,10 @@ em,
 .text-strike {
   text-decoration: line-through; }
 
-.text-underline, .text-link:hover {
+.text-underline, a:hover,
+a:visited:hover,
+.text-link:hover,
+.text-link:visited:hover {
   text-decoration: underline; }
 
 mark,
@@ -518,7 +521,7 @@ body,
   font-family: cursive; }
 
 .text-chapter::first-letter, .text-chapter-cursive::first-letter {
-  font-size: 6.25em;
+  font-size: 6.5em;
   text-transform: uppercase;
   display: block;
   float: left;
@@ -598,11 +601,17 @@ p {
 @media only screen and (min-width: 960px) {
   p {
     font-size: 1rem; } }
-.text-link {
+a,
+a:visited,
+.text-link,
+.text-link:visited {
   color: #084B8A;
   text-decoration: none;
   cursor: pointer; }
-  .text-link:hover {
+  a:hover,
+  a:visited:hover,
+  .text-link:hover,
+  .text-link:visited:hover {
     color: #084B8A; }
 
 .text-unselectable {

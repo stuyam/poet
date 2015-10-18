@@ -1,5 +1,8 @@
 // style text to link
-.text-link{
+a,
+a:visited,
+.text-link,
+.text-link:visited{
   color: $color-link;
   text-decoration: none;
   cursor: pointer;

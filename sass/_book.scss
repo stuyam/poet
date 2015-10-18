@@ -1,6 +1,6 @@
 // makes the first letter large similar to the begining of chapters in books
 .text-chapter::first-letter{
-  font-size: 6.25em;
+  font-size: 6.5em;
   @extend .text-bold;
   text-transform: uppercase;
   display: block;
