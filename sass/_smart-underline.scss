@@ -6,11 +6,11 @@
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, $color-black 50%);
   background-repeat: repeat-x;
   background-size: 0.1em 0.1em;
-  background-position: 0 1em;
-  text-shadow: 0 0 #333, .06em 0 0 #fff, 0 0, -.06em 0 0 #fff;
+  background-position: 0 .97em;
+  text-shadow: .032em 0 #fff, .06em 0 0 #fff, -.032em 0 #fff, -.06em 0 0 #fff;
   @media not all, only screen and (min-resolution: 2dppx), only screen and (-webkit-min-device-pixel-ratio: 2){
     background-image: linear-gradient(to bottom, $color-black 30%, rgba(0,0,0,0) 30%);
-    background-position: 0 1.05em;
+    background-position: 0 1.01em;
   }
 }
 // Remove the white text shadow from overlaying the underline
