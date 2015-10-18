@@ -1,0 +1,17 @@
+// Responsive interpolation mixin for text
+@mixin interpolate($elements, $min-size, $max-size, $precision: 10, $property: 'font-size', $unit: 'rem', $min-width: 960, $max-width: 360){
+  $increment: ($max-size - $min-size)/$precision;
+  @for $i from $precision through 0{
+    @if $i == $precision{
+      #{$elements}{
+        #{$property}: #{$max-size - $i * $increment}#{$unit};
+      }
+    } @else {
+      @media only screen and (min-width: #{$max-width - $i * ($max-width - $min-width)/$precision}px) {
+        #{$elements}{
+          #{$property}: #{$max-size - $i * $increment}#{$unit};
+        }
+      }
+    }
+  }
+}
