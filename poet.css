@@ -5,7 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.61803;
   color: #333333; }
   html p,
   body p {
@@ -437,6 +437,22 @@ sub,
 .text-subscript {
   bottom: -0.25em;
   left: 0.05em; }
+
+.text-smart-underline, .text-smart-underline-noshadow {
+  display: inline !important;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, transparent 50%, #333333 50%);
+  background-repeat: repeat-x;
+  background-size: 0.1em 0.1em;
+  background-position: 0 1em;
+  text-shadow: 0 0 #333, .06em 0 0 #fff, 0 0, -.06em 0 0 #fff; }
+  @media not all, only screen and (min-resolution: 2dppx), only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .text-smart-underline, .text-smart-underline-noshadow {
+      background-image: linear-gradient(to bottom, #333333 30%, transparent 30%);
+      background-position: 0 1.05em; } }
+
+.text-smart-underline-noshadow {
+  text-shadow: none; }
 
 .text-center-block {
   width: 100%;
