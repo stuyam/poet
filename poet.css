@@ -457,6 +457,22 @@ sub,
 .text-smart-underline-noshadow {
   text-shadow: none; }
 
+a.text-smart-underline, a.text-smart-underline-noshadow,
+.text-link.text-smart-underline,
+.text-link.text-smart-underline-noshadow {
+  background-image: none; }
+
+a:hover.text-smart-underline, a.text-smart-underline-noshadow:hover,
+.text-link:hover.text-smart-underline,
+.text-link.text-smart-underline-noshadow:hover {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, transparent 50%, #084B8A 50%); }
+  @media not all, only screen and (min-resolution: 2dppx), only screen and (-webkit-min-device-pixel-ratio: 2) {
+    a:hover.text-smart-underline, a.text-smart-underline-noshadow:hover,
+    .text-link:hover.text-smart-underline,
+    .text-link.text-smart-underline-noshadow:hover {
+      background-image: linear-gradient(to bottom, #084B8A 30%, transparent 30%); } }
+
 .text-center-block {
   width: 100%;
   text-align: center;

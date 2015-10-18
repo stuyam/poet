@@ -18,3 +18,17 @@
   text-shadow: none;
   @extend .text-smart-underline;
 }
+
+a.text-smart-underline,
+.text-link.text-smart-underline{
+  background-image: none;
+}
+
+a:hover.text-smart-underline,
+.text-link:hover.text-smart-underline{
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, $color-link 50%);
+  @media not all, only screen and (min-resolution: 2dppx), only screen and (-webkit-min-device-pixel-ratio: 2){
+    background-image: linear-gradient(to bottom, $color-link 30%, rgba(0,0,0,0) 30%);
+  }
+}
