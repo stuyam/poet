@@ -4,8 +4,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 14px;
-  line-height: 1.428;
+  font-size: 16px;
+  line-height: 1.5;
   color: #333333; }
 
 html {
@@ -49,25 +49,25 @@ h6, .h6 {
   h6 small,
   h6 .small, .h6 small,
   .h6 .small {
-    color: #888888; }
+    color: #818a91; }
 
 h1, .h1 {
-  font-size: 2.5714rem; }
+  font-size: 2.25rem; }
 
 h2, .h2 {
-  font-size: 1.6429rem; }
+  font-size: 1.875rem; }
 
 h3, .h3 {
-  font-size: 1.7143rem; }
+  font-size: 1.5rem; }
 
 h4, .h4 {
-  font-size: 1.2857rem; }
+  font-size: 1.125rem; }
 
 h5, .h5 {
-  font-size: 1rem; }
+  font-size: 0.875rem; }
 
 h6, .h6 {
-  font-size: 0.8571rem; }
+  font-size: 0.75rem; }
 
 .mighty-1,
 .mighty-2,
@@ -82,7 +82,7 @@ h6, .h6 {
   .mighty-3 .small,
   .mighty-4 small,
   .mighty-4 .small {
-    color: #888888; }
+    color: #818a91; }
 
 .mighty-1 {
   font-size: 6rem; }
@@ -96,6 +96,8 @@ h6, .h6 {
 .mighty-4 {
   font-size: 3.5rem; }
 
+i,
+em,
 .text-italic {
   font-style: italic; }
 
@@ -125,19 +127,19 @@ small,
   text-transform: capitalize; }
 
 .text-success {
-  color: #22A64E; }
+  color: #5cb85c; }
 
 .text-warning {
-  color: #AF7E2A; }
+  color: #f0ad4e; }
 
 .text-danger {
-  color: #A62222; }
+  color: #d9534f; }
 
 .text-muted {
-  color: #888888; }
+  color: #818a91; }
 
 .text-info {
-  color: #337ab7; }
+  color: #0275d8; }
 
 sub,
 sup,
@@ -166,10 +168,10 @@ sub,
 .text-left {
   text-align: left; }
 
-.text-left {
+.text-center {
   text-align: center; }
 
-.text-left {
+.text-right {
   text-align: right; }
 
 .text-ultra-light {
@@ -210,7 +212,7 @@ h6,
 .font-san-serif, html,
 body,
 .font-sanserif {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
 
 .font-serif {
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; }
@@ -234,7 +236,7 @@ body,
   text-indent: 0; }
 
 .text-indent {
-  text-indent: 40px; }
+  text-indent: 2.5em; }
 
 @media only screen and (min-width: 360px) {
   .text-fluid {
