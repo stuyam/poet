@@ -32,3 +32,14 @@ hr{
   border:0;
   border-top:1px solid #eee
 }
+
+.social-buttons{
+  display: table;
+  margin: 10px auto 20px auto;
+  position: relative;
+}
+
+.social-buttons > iframe{
+  margin-left: 5px;
+  margin-right: 5px;
+}
