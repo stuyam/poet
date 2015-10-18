@@ -21,6 +21,11 @@ body{
 
   // set base font weight to regular
   @extend .text-normal;
+
+  // remove the top of paragraphs
+  p{
+    margin-top: 0;
+  }
 }
 
 

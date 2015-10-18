@@ -499,7 +499,7 @@ body,
   font-family: "Courier New", Courier, monospace; }
 
 .font-cursive, .text-chapter-cursive::first-letter {
-  font-family: "Florence", cursive; }
+  font-family: cursive; }
 
 .text-chapter::first-letter, .text-chapter-cursive::first-letter {
   font-size: 6.25em;
