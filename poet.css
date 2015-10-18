@@ -307,9 +307,11 @@ body,
   .text-fluid {
     font-size: 1.704rem; } }
 .text-link {
-  color: #0040FF;
+  color: #084B8A;
   text-decoration: none;
   cursor: pointer; }
+  .text-link:hover {
+    color: #084B8A; }
 
 .text-unselectable {
   -webkit-user-select: none;

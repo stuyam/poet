@@ -1,9 +1,10 @@
 // style text to link
 .text-link{
-  color: #0040FF;
+  color: $color-link;
   text-decoration: none;
   cursor: pointer;
   &:hover{
     @extend .text-underline;
+    color: $color-link;
   }
 }
