@@ -1,4 +1,17 @@
 // Normal heading presets
+@mixin heading{
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  line-height: 1.1;
+  color: inherit;
+  // Make small elements grey in these elements
+  small,
+  .small{
+    color: $color-grey;
+  }
+}
 // Based off of Bootsraps header classes http://getbootstrap.com/css/#type
 h1, .h1,
 h2, .h2,
@@ -6,19 +19,8 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6{
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-family: inherit;
+  @include heading;
   @extend .text-bold;
-  line-height: 1.1;
-  color: inherit;
-
-  // Make small elements grey in these elements
-  small,
-  .small{
-    color: $color-grey;
-  }
 }
 
 h1, .h1{
@@ -45,14 +47,8 @@ h6, .h6{
 .mighty-2,
 .mighty-3,
 .mighty-4{
-  display: block;
+  @include heading;
   @extend .text-light;
-
-  // Make small elements grey in these elements
-  small,
-  .small{
-    color: $color-grey;
-  }
 }
 
 .mighty-1{

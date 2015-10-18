@@ -1,11 +1,11 @@
 // makes the first letter large similar to the begining of chapters in books
 .text-chapter:first-letter{
-  font-size: 6em;
+  font-size: 6.25em;
   @extend .text-bold;
   text-transform: uppercase;
   display: block;
   float: left;
-  margin: 0 0.25em 0 0;
+  margin: 0 0.17em 0 0;
   line-height: .9;
 }
 .text-chapter-cursive:first-letter{
