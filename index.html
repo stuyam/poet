@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-    <span class="mighty-1 text-center-element">Poet.css</span>
+    <span class="mighty-1 text-center-block">Poet.css</span>
     <p class="text-fluid text-indent">Poet is a CSS typography library for responsive eloquent websites. It is great for all sites looking for responsive and clean typography and great for blogs, news sites, and online books looking to make readible content. Poet offers base style improvments, as well as countless utilities to make your website sharper than ever!</p>
 
     <div class="doc-section">
@@ -25,13 +25,7 @@
         <pre class="language-markup"><code>&lt;h1&gt;This is a h1 tag&lt;/h1&gt;
 &lt;h2&gt;This is a h2 tag&lt;/h2&gt;
 &lt;h3&gt;This is a h3 tag&lt;/h3&gt;
-&lt;h4&gt;This is a h4 tag&lt;/h4&gt;
-&lt;h5&gt;This is a h5 tag&lt;/h5&gt;
-&lt;h6&gt;This is a h6 tag&lt;/h6&gt;
 or
-&lt;span class="h1"&gt;This is a h1 tag&lt;/span&gt;
-&lt;span class="h2"&gt;This is a h2 tag&lt;/span&gt;
-&lt;span class="h3"&gt;This is a h3 tag&lt;/span&gt;
 &lt;span class="h4"&gt;This is a h4 tag&lt;/span&gt;
 &lt;span class="h5"&gt;This is a h5 tag&lt;/span&gt;
 &lt;span class="h6"&gt;This is a h6 tag&lt;/span&gt;</code></pre>
@@ -40,16 +34,17 @@ or
 
     <div class="doc-section">
       <div class="doc-top">
-        <span class="mighty-1">Mighty1 header</span>
-        <span class="mighty-2">Mighty2 header</span>
-        <span class="mighty-3">Mighty3 header</span>
-        <span class="mighty-4">Mighty4 header</span>
+        <h1 class="mighty-1">Mighty-1</h1>
+        <span class="mighty-2">Mighty-2</span>
+        <span class="mighty-3">Mighty-3</span>
+        <span class="mighty-4">Mighty-4</span>
       </div>
       <div class="doc-bottom">
-        <pre class="language-markup"><code>&lt;span class="mighty-1"&gt;Mighty1 header&lt;/span&gt;
-&lt;span class="mighty-2"&gt;Mighty2 header&lt;/span&gt;
-&lt;span class="mighty-3"&gt;Mighty3 header&lt;/span&gt;
-&lt;span class="mighty-4"&gt;Mighty4 header&lt;/span&gt;</code></pre>
+        <pre class="language-markup"><code>&lt;h1 class="mighty-1"&gt;Mighty-1&lt;/h1&gt;
+&lt;h2 class="mighty-2"&gt;Mighty-2&lt;/h2&gt;
+or
+&lt;span class="mighty-3"&gt;Mighty-3&lt;/span&gt;
+&lt;span class="mighty-4"&gt;Mighty-4&lt;/span&gt;</code></pre>
       </div>
     </div>
 
@@ -119,13 +114,15 @@ or
         <div class="text-bold">This is a line of bold text</div>
         <div class="text-italic">This is a line of italic text</div>
         <div class="text-link">This text looks like a link</div>
+        <div>This text has a <span class="text-highlight">highlighted section</span> in it</div>
       </div>
       <div class="doc-bottom">
         <pre class="language-markup"><code>&lt;span class="text-underline"&gt;This is a line of underlined text&lt;/span&gt;
 &lt;span class="text-strike"&gt;This is a line of strike through text&lt;/span&gt;
 &lt;span class="text-bold"&gt;This is a line of bold text&lt;/span&gt;
 &lt;span class="text-italic"&gt;This is a line of italic text&lt;/span&gt;
-&lt;span class="text-line"&gt;This text looks like a link&lt;/span&gt;</code></pre>
+&lt;span class="text-line"&gt;This text looks like a link&lt;/span&gt;
+This text has a &lt;span class="text-highlight"&gt;highlighted section&lt;/span&gt; in it</code></pre>
       </div>
     </div>
 
@@ -154,6 +151,21 @@ or
       </div>
       <div class="doc-bottom">
         <pre class="language-markup"><code>&lt;span class="text-unselectable"&gt;This text you can try to highlight...&lt;/span&gt;</code></pre>
+      </div>
+    </div>
+
+    <div class="doc-section">
+      <div class="doc-top">
+        <div class="text-left">This text if left aligned</div>
+        <div class="text-center">This this text in centered</div>
+        <div class="text-right">This text is right aligned</div>
+        <div class="text-center-block">This text is centered within its parent</div>
+      </div>
+      <div class="doc-bottom">
+        <pre class="language-markup"><code>&lt;span class="text-left"&gt;This text if left aligned&lt;/span&gt;
+&lt;span class="text-center"&gt;This text if centered&lt;/span&gt;
+&lt;span class="text-right"&gt;This text if right aligned&lt;/span&gt;
+&lt;span class="text-center-block"&gt;This text is centered within its parent&lt;/span&gt;</code></pre>
       </div>
     </div>
 
