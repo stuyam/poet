@@ -21,6 +21,11 @@
   padding: 10px;
 }
 
+.doc-title{
+  font-weight: 400 !important;
+  margin-bottom: 0.6rem;
+}
+
 pre{
   background: #f7f7f9 !important;
   margin-bottom: 0 !important;
