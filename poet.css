@@ -457,12 +457,12 @@ sub,
   background-image: linear-gradient(to bottom, transparent 50%, #333333 50%);
   background-repeat: repeat-x;
   background-size: 0.1em 0.1em;
-  background-position: 0 .97em;
+  background-position: 0 .99em;
   text-shadow: .032em 0 #fff, .06em 0 0 #fff, -.032em 0 #fff, -.06em 0 0 #fff; }
   @media not all, only screen and (min-resolution: 2dppx), only screen and (-webkit-min-device-pixel-ratio: 2) {
     .text-smart-underline, .text-smart-underline-noshadow {
       background-image: linear-gradient(to bottom, #333333 30%, transparent 30%);
-      background-position: 0 1.01em; } }
+      background-position: 0 1.04em; } }
 
 .text-smart-underline-noshadow {
   text-shadow: none; }
