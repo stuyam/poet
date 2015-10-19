@@ -26,16 +26,16 @@ mark,
 }
 
 // Overide system highlighting
-// .text-system-highlight::-moz-selection,
-// .text-system-highlight *::-moz-selection{
-//   color: #000;
-//   background: $color-highlight;
-// }
-// .text-system-highlight::selection,
-// .text-system-highlight *::selection{
-//   color: #000;
-//   background: $color-highlight;
-// }
+.text-user-highlight::-moz-selection,
+.text-user-highlight *::-moz-selection{
+  color: #000;
+  background: $color-highlight;
+}
+.text-user-highlight::selection,
+.text-user-highlight *::selection{
+  color: #000;
+  background: $color-highlight;
+}
 
 // Make text 85% smaller
 small,

@@ -394,6 +394,16 @@ mark,
   color: #000;
   background: #FFFF80; }
 
+.text-user-highlight::-moz-selection,
+.text-user-highlight *::-moz-selection {
+  color: #000;
+  background: #FFFF80; }
+
+.text-user-highlight::selection,
+.text-user-highlight *::selection {
+  color: #000;
+  background: #FFFF80; }
+
 small,
 .text-small {
   font-size: .80em; }
