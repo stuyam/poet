@@ -3,4 +3,4 @@ Poet is a CSS typography library for eloquent websites. It is great for normal s
 
 Poet offers base style improvments, as well as countless utilities to make your website sharper than ever!
 
-Documentation and Usage: http://yamartino.github.io/Poet
+Documentation and Usage: http://yamartino.github.io/poet
