@@ -1,10 +1,11 @@
-/*! Poet v0.0.1 | MIT license | Maintained by Stuart Yamartino */
+/*! Poet v0.0.2 | MIT license | Maintained by Stuart Yamartino */
 @import 'variables';
 @import 'mixins/interpolate';
 @import 'mixins/headers';
 
 @import 'boot';
 @import 'headers';
+@import 'color';
 @import 'inline-helpers';
 @import 'smart-underline';
 @import 'alignment';

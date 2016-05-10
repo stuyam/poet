@@ -2,12 +2,19 @@ html,
 body{
   // improved readability for browsers that can handle it
   text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
 
-  // why Antialiasing is Awseome http://www.html5rocks.com/en/tutorials/internals/antialiasing-101/
+  // why antialiasing is awesome http://www.html5rocks.com/en/tutorials/internals/antialiasing-101/
   -webkit-font-smoothing:  antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  // set default page font size to 14px
+  // set default page font size to 16px
   font-size: 16px;
 
   // line height
@@ -30,10 +37,6 @@ body{
 
 
 // css typography tweaks from Normalize.css in case it isn't included http://necolas.github.io/normalize.css/
-html{
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
 a {
   background-color: transparent;
 }

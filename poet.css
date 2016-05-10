@@ -1,7 +1,14 @@
-/*! Poet v0.0.1 | MIT license | Maintained by Stuart Yamartino */
+/*! Poet v0.0.2 | MIT license | Maintained by Stuart Yamartino */
 html,
 body {
   text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
@@ -10,10 +17,6 @@ body {
   html p,
   body p {
     margin-top: 0; }
-
-html {
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
 
 a {
   background-color: transparent; }
@@ -374,6 +377,21 @@ h6, .h6 {
 @media only screen and (min-width: 960px) {
   .mighty-4 {
     font-size: 3.5rem; } }
+.text-success {
+  color: #5cb85c; }
+
+.text-warning {
+  color: #f0ad4e; }
+
+.text-danger {
+  color: #d9534f; }
+
+.text-muted {
+  color: #818a91; }
+
+.text-info {
+  color: #0275d8; }
+
 i,
 em,
 .text-italic {
@@ -416,21 +434,6 @@ small,
 
 .text-capitalize {
   text-transform: capitalize; }
-
-.text-success {
-  color: #5cb85c; }
-
-.text-warning {
-  color: #f0ad4e; }
-
-.text-danger {
-  color: #d9534f; }
-
-.text-muted {
-  color: #818a91; }
-
-.text-info {
-  color: #0275d8; }
 
 sub,
 sup,
